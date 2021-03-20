@@ -14,21 +14,19 @@ contract Variables2 {
     uint _num;
     string _name;
     bool isCorrect;
-    
     constructor () public {
         _num = 3;
         _name = "Sufana";
         isCorrect = true;
-        
     }
     
     //////////////////////////////////////////
+    
     // Local variables //
     function local() public {
         uint a = 3;
         uint b = 2;
-        uint result = a + b ;
-        
+        uint result = a + b ;  
     }
     
     // ex2
@@ -40,13 +38,12 @@ contract Variables2 {
     }
     
     //////////////////////////////////////////
+    
     // Global Variables //
     uint timestamp = block.timestamp;
     address sender = msg.sender;
     uint value = msg.value;
     bytes callData = msg.data;
-
-    
 
 
 }
