@@ -1,14 +1,16 @@
-# Variables 
+# Practice 
+
+### Variables :
 
 There are 3 types of variables in Solidity
 
-## 1- Local 
+* Local 
 declared inside a function
 not stored on the blockchain
 
-## 2- State 
+* State 
 declared outside a function
 stored on the blockchain
 
-## 3- Global 
+* Global 
 provides information about the blockchain
